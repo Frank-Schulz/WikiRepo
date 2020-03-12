@@ -1,0 +1,42 @@
+/* Start of Nav Bar */
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #8fe1ff;
+    background-color: #c8f0ff;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #8fe1ff;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+}
+
+li input {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+li a.current {
+    background-color: #ffffff;
+}
+  
+li a:hover:not(.current) {
+  background-color: #aacfda;
+}
+
+
+
+/* End of Nav Bar */
