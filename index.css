@@ -1,0 +1,24 @@
+#welcome {
+    font-size: 40px;
+    text-align: center;
+}
+#welcomefree {
+    font-size: small;
+    text-align: center;
+}
+.contentbox {
+    float: left;
+    margin-right: 1px;
+    max-width: 49%;
+    border-style: solid;
+    border-color: lightblue;
+   
+}
+.Contentboxtwo {
+    float: right;
+    margin-left: 1px;
+    max-width: 49%;
+    border-style: solid;
+    border-color: lightblue;
+    
+}
