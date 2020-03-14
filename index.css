@@ -1,6 +1,13 @@
+body {
+    background-color: #f6f6f6;
+    overflow-y: scroll;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+    
 /* Start of logo */
 .headLogo{
-    background-color: white;
     padding: 0px;
     margin-left: auto;
     margin-right: auto;
@@ -29,14 +36,15 @@ img {
 
 /* Start of side bar */
 .sidebar {
-    width: 15%; /* Set the width of the sidebar */
+    max-width: 9em; /* Set the width of the sidebar */
     position: absolute; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 1; /* Stay at the top */
     left: 0;
     background-color:#e0e0eb;
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
+    padding-top: 10px;
+    margin-top: 18.5px;
 }
 
 /* The navigation menu links */
@@ -90,7 +98,7 @@ li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 8px 10px;
+    padding: 6px 10px;
     text-decoration: none;
 }
 
@@ -108,9 +116,21 @@ li a.current {
 li a:hover:not(.current) {
   background-color: #aacfda;
 }
+
+.search-container {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 4px 2px;
+    text-decoration: none;
+}
 /* End of Nav Bar */
 
 /* Start of content */
+#content {
+    margin-left: 9.25em;
+}
+
 #welcome {
     font-size: 40px;
     text-align: center;
@@ -120,7 +140,7 @@ li a:hover:not(.current) {
     font-size: small;
     text-align: center;
 }
-.contentbox {
+.contentbox-left {
     float: left;
     margin-right: 1px;
     max-width: 49%;
@@ -128,7 +148,7 @@ li a:hover:not(.current) {
     border-color: lightblue;
    
 }
-.Contentboxtwo {
+.contentbox-right {
     float: right;
     margin-left: 1px;
     max-width: 49%;
