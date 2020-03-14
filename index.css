@@ -89,12 +89,17 @@ a.sideBarHeader {
     background-color: #c8f0ff;
 }
 
-li {
+.navListL {
     float: left;
     border-right: 1px solid #8fe1ff;
 }
 
-li a {
+.navListR {
+    float: right;
+    border-left: 1px solid #8fe1ff;
+}
+
+.navList a {
     display: block;
     color: black;
     text-align: center;
@@ -159,35 +164,45 @@ li a:hover:not(.current) {
 /* End of content */
 
 /* Start of footer */
-.text {
-    margin-left:30px;
-    margin-top: 15px;
-    display: inline-block;
-    text-align: center;
-    padding: 10px;
-    border-radius: 10px;
-}
-
 #footer {
-    color: black;
-    height: 120px;
-    margin-top:40%;
+    margin-top: 45em;
     margin-left: -1%;
-    font-size: 12px;
-    background-color: lightblue;   
 }
 
-p {
-    margin: 30px;
-text-align: left;
-}
-
-a { 
+.fList {
+    background-color: lightblue;
+    float: left;
+    text-align: left;
     color: black;
+    font-size: 12px;
 
+    border-width: 100%;
+    list-style-type: none;
+    padding-top: 1.5em;
+    padding-bottom: none;
+    padding-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 0px;
 }
 
-a:hover { 
+.fLink a {
+    float: left;
+    margin-right: 2em;
+}
+
+.fText {
+    text-align: left;
+    margin-left: 3em;
+    margin-right: 20%;
+    margin-top: 3em;
+    margin-bottom: none;
+}
+
+.fLink a { 
+    color: black;
+}
+
+.fLink a:hover { 
     color: gray;
 }
 /* End of footer */

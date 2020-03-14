@@ -14,7 +14,8 @@
     <div class="headLogo">
         <img src="https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png">
         
-        <div class="logoText"><h1>WIKIPEDIA</h1>
+        <div class="logoText">
+            <h1>WIKIPEDIA</h1>
             <p>The Free Encyclopedia</p>
         </div>
     </div>
@@ -58,17 +59,17 @@
 
         <!-- Start of Nav Bar -->
         <ul id="navbar">
-            <li><a class="btn current" href="index.html">Main Page</a></li>
-            <li><a class="btn" href="#disc">Discussion</a></li>
+            <li class="navListL navList"><a class="btn current" href="index.html">Main Page</a></li>
+            <li class="navListL navList"><a class="btn" href="#disc">Discussion</a></li>
     
     
-            <div style="float:right" class="search-container">
+            <div class="navListR navList" style="float:right" class="search-container">
                   <input type="text" placeholder="Search Wikipedia" name="search">
               </div>
             
-            <li style="float: right"><a class="btn" href="#about">View History</a></li>
-            <li style="float: right"><a class="btn" href="#source">Veiw Source</a></li>
-            <li style="float: right"><a class="btn" href="#read">Read</a></li>
+            <li class="navListR navList"><a class="btn" href="#about">View History</a></li>
+            <li class="navListR navList"><a class="btn" href="#source">Veiw Source</a></li>
+            <li class="navListR navList"><a class="btn" href="#read">Read</a></li>
         </ul>
         <!-- End of Nav Bar -->
 
@@ -94,19 +95,21 @@
     <!-- End of content -->
 
     <!-- Start of footer -->
-
-     <div id="footer">
-        <div class="text"><a href="#">languages</a></div>
-        <div class="text"><a href="#">policy</a></div>
-        <div class="text"><a href="#">About Wikipedia</a></div>
-        <div class="text"><a href="#">Disclaimers</a></div>
-        <div class="text"><a href="#">Contact</a></div>
-        <div class="text"><a href="#">WikipediaDevelopers</a></div>
-        <div class="text"><a href="#">Statistics</a></div>
-        <div class="text"><a href="#">Cookie statement</a></div>
-        <div class="text"><a href="#">Mobile view</a></div>
-        <p>Text is available under the<a href="">Creative Commons Attribution-ShareAlike License;</a> additional terms may apply. By using this site, you agree to the <a href="">terms of Use</a> and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.</p>
-     </div>
+    <div id="footer"></div>
+    
+    <ul class="fList">
+        <li class="fLink"><a href="#">Languages</a></li>
+        <li class="fLink"><a href="#">Policy</a></li>
+        <li class="fLink"><a href="#">About Wikipedia</a></li>
+        <li class="fLink"><a href="#">Disclaimers</a></li>
+        <li class="fLink"><a href="#">Contact</a></li>
+        <li class="fLink"><a href="#">Wikipedia Developers</a></li>
+        <li class="fLink"><a href="#">Statistics</a></li>
+        <li class="fLink"><a href="#">Cookie statement</a></li>
+        <li class="fLink"><a href="#">Mobile view</a></li>
+        <p class="fText">Text is available under the <a href="">Creative Commons Attribution-ShareAlike License;</a> additional terms may apply. By using this site, you agree to the <a href="">terms of Use</a> and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.</p>
+    </ul>
+     
      <!-- End of footer -->
         
         <script src="index.js" async defer></script>
