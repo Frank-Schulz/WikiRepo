@@ -1,7 +1,13 @@
-#box { background-color: black;
-color: white;
-width: auto;
-height: auto;
-padding: 50px;}
+.text {
+    border: 1px solid red;
+    margin-left:50px;
+    margin-top: 15px;
+    display: inline-block;
+}
 
-[class='tex'] { padding: 30px 30px 30px 30px;}
+#footer {
+    border: 1px solid blue;
+    height: 60px;
+    margin-top:40%;
+    background-color: lightgray;
+}
